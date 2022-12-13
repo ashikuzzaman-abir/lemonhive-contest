@@ -80,8 +80,8 @@ function EachCharecterPage() {
 				</div>
 				<div className=' sm:hidden md:block bg-limeGreen w-[1px] h-[320px]'></div>
 				<div className='sm:w-[100%] md:w-[calc(60%-1px)] h-full flex justify-center items-center sm:mt-[40px] md:mt-0'>
-					<div className='sm:w-screen md:w-[800px] flex flex-col gap-10 sm:px-8 md:px-0'>
-						<div className='flex justify-between'>
+					<div className='sm:w-[100vw] md:w-[800px] flex flex-col gap-10 sm:px-8 md:px-0'>
+						<div className='flex justify-between w-full'>
 							<div className='box-cart sm:w-[104px] sm:h-[75px] md:w-[240px] md:h-[174px] sm:before:w-[104px] sm:before:h-[75px] md:before:w-[240px] md:before:h-[174px] sm:after:w-[102px] sm:after:h-[73px] md:after:w-[237px] md:after:h-[171px] after:bg-mainbg before:rounded-lg after:rounded-lg sm:px-3 md:px-6 py-4'>
 								<div className='relative sm:w-[20px] sm:h-[20px] md:w-[40px] md:h-[36px]'>
 									<Image src={status} fill alt='status' />
@@ -174,11 +174,11 @@ function EachCharecterPage() {
 				<div className='h-[40px]'></div>
 			</div>
 			{/* backgrounds */}
-			<div className='absolute w-screen h-full top-0 left-0'>
+			<div className='absolute sm:w-[1300px] md:w-screen h-full sm:top-0 md:top-0 md:left-0'>
 				<Image src={background} fill alt='background Image' />
 			</div>
-			<div className='absolute w-[95vw] h-[644px] bottom-0 left-0 right-0 mx-auto '>
-				<Image src={stars} fill alt='background Image' />
+			<div className='sm:hidden md:block absolute w-[95vw] h-[644px] bottom-0 left-0 right-0 mx-auto '>
+				<Image src={stars} fill alt='star Image' />
 			</div>
 		</div>
 	);
