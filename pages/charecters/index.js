@@ -5,9 +5,9 @@ import ShowCharacters from '../../components/ShowCharacters';
 
 function index() {
   return (
-		<div className=' max-w-[1600px] mx-auto mt-[72px]'>
+		<div className=' max-w-[1600px] mx-auto sm:mt-[40px] md:mt-[72px] sm:px-4'>
 			<div className='flex justify-between items-center'>
-				<h3 className=' text-cyanBlue text-[64px] font-[600]'>The Cast</h3>
+				<h3 className=' text-cyanBlue sm:text-[16px] md:text-[64px] font-[600]'>The Cast</h3>
         <SearchBox/>
 			</div>
 			<ShowCharacters/>

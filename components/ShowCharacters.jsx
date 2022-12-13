@@ -17,7 +17,7 @@ function ShowCharacters() {
 
 
   return (
-    <div className='grid grid-cols-5 gap-16 mt-[40px]'>{
+    <div className='grid sm:grid-col-2 md:grid-cols-5 sm:gap-8 md:gap-16 mt-[40px]'>{
       data?.map((each, idx)=> {
         return (
           <Cart key={idx} props={each}/>
