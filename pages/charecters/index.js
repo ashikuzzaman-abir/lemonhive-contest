@@ -1,5 +1,7 @@
 import React from 'react'
+import Pagination from '../../components/Pagination';
 import SearchBox from '../../components/SearchBox';
+import ShowCharacters from '../../components/ShowCharacters';
 
 function index() {
   return (
@@ -8,6 +10,8 @@ function index() {
 				<h3 className=' text-cyanBlue text-[64px] font-[600]'>The Cast</h3>
         <SearchBox/>
 			</div>
+			<ShowCharacters/>
+			<Pagination/>
 		</div>
 	);
 }

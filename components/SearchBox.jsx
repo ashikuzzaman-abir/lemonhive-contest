@@ -12,7 +12,7 @@ function SearchBox() {
 	const [selesctedItem, setSelectedItem] = useState("Location");
   const [showDropDown, setShowDropDown] = useState(false);
 	return (
-		<div className=' w-[424px] h-[58px] relative z-[4] before:absolute after:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 after:top-0 after:bottom-0 after:left-0 after:right-0 before:m-auto after:m-auto before:z-[2] after:z-[3]  before:w-[424px] before:h-[58px] before:bg-gradient-to-b before:from-cyanBlue before:to-limeGreen after:bg-mainbg after:w-[422px] after:h-[56px] before:rounded-full after:rounded-full flex items-center before:content-[""] after:content-[""]'>
+		<div className=' w-[424px] h-[58px] relative z-[10] before:absolute after:absolute before:top-0 before:bottom-0 before:left-0 before:right-0 after:top-0 after:bottom-0 after:left-0 after:right-0 before:m-auto after:m-auto before:z-[2] after:z-[3]  before:w-[424px] before:h-[58px] before:bg-gradient-to-b before:from-cyanBlue before:to-limeGreen after:bg-mainbg after:w-[422px] after:h-[56px] before:rounded-full after:rounded-full flex items-center before:content-[""] after:content-[""]'>
 			<div className='relative w-[calc(45%-2px)] h-[calc(100%-2px)] left-[.5px] z-[5] bg-cyanBlue rounded-l-full drop-shadow-md flex justify-center items-center'>
 				<div
 					className='flex w-full justify-end items-center cursor-pointer select-none gap-5 px-2'
