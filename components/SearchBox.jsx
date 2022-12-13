@@ -40,7 +40,9 @@ function SearchBox() {
 							<div
 								key={idx}
 								className='text-center w-[100%] font-[600] sm:text-[8px] md:text-[16px] border-b-[1px] sm:py-[5px] md:py-3 last:border-b-0 cursor-pointer'
-								onClick={(e) => setSelectedItem(item)}
+								onClick={(e) => {setSelectedItem(item)
+									setShowDropDown(false)
+								}}
 							>
 								{item}
 							</div>
